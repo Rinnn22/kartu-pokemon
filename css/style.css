@@ -32,6 +32,7 @@ body {
   left: 0;
   right: 0;
   z-index: 9999;
+  background-color: black;
 }
 
 .navbar .navbar-logo {
@@ -194,6 +195,9 @@ body {
 }
 
 /* kartu section */
+.kartu {
+  /* background-color: red; */
+}
 
 .kartu h2,
 .contact h2 {
@@ -337,6 +341,10 @@ footer .credit a {
     background-color: #00008b;
     width: 30rem;
     height: 100vh;
+  }
+
+  .show-navbar-nav {
+    right: 0px !important;
   }
 
   .navbar .navbar-nav.active {

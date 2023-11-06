@@ -13,3 +13,7 @@ document.addEventListener("click", function (e) {
     navbarNav.classList.remove("active");
   }
 });
+
+document.getElementById('menu').addEventListener('click', function() {
+  navbarNav.classList.toggle("show-navbar-nav");
+})
